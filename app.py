@@ -11,4 +11,4 @@ if st.button('Giải'):
     if(a==0 and b==0) :
      st.success("Có vô số x thỏa là nghiệm")
     else : 
-      st.success("Phương trình có nghiệm là",-b/a)
+      st.success("Phương trình có nghiệm là : "+str(-b/a))
